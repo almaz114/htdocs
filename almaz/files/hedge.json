@@ -1,0 +1,14 @@
+{
+    "EURUSD": {
+        "high_level": "1.1685",
+        "low_level": "1.1425",
+        "limit_order_type": 1,
+        "stop_order_type": 0,
+        "sell_stop_price": 1.16,
+        "buy_stop_price": 1.185
+    },
+    "close_positions": 0,
+    "active": 0,
+    "cascade_orders": 1,
+    "last_update": "11-11-2021-13:56"
+}

@@ -1,0 +1,59 @@
+{
+    "EURUSD": {
+        "buy_limit_price": 1.15722,
+        "stop_loss": 1.1501,
+        "take_profit": 1.17019,
+        "stop_order_type": 0,
+        "sell_stop_price": 1.16,
+        "buy_stop_price": 1.185,
+        "cascade_orders": 1,
+        "close_positions": 1,
+	"close_orders": 0
+    },
+    "GBPUSD": {
+        "buy_limit_price": 1.15722,
+        "stop_loss": 1.1501,
+        "take_profit": 1.17019,
+        "stop_order_type": 0,
+        "sell_stop_price": 1.16,
+        "buy_stop_price": 1.185,
+        "cascade_orders": 1,
+        "close_positions": 1,
+	"close_orders": 0
+    },
+    "AUDUSD": {
+        "buy_limit_price": 1.15722,
+        "stop_loss": 1.1501,
+        "take_profit": 1.17019,
+        "stop_order_type": 0,
+        "sell_stop_price": 1.16,
+        "buy_stop_price": 1.185,
+        "cascade_orders": 1,
+        "close_positions": 1,
+	"close_orders": 0
+    },
+    "NZDUSD": {
+        "buy_limit_price": 1.15722,
+        "stop_loss": 1.1501,
+        "take_profit": 1.17019,
+        "stop_order_type": 0,
+        "sell_stop_price": 1.16,
+        "buy_stop_price": 1.185,
+        "cascade_orders": 1,
+        "close_positions": 1,
+	"close_orders": 0
+    },
+    "USDCAD": {
+        "buy_limit_price": 1.15722,
+        "stop_loss": 1.1501,
+        "take_profit": 1.17019,
+        "stop_order_type": 0,
+        "sell_stop_price": 1.16,
+        "buy_stop_price": 1.185,
+        "cascade_orders": 1,
+        "close_positions": 1,
+	"close_orders": 0
+    },
+    "active": 1,
+    "last_update": "30-09-2021-19:02"
+}

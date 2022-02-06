@@ -1,0 +1,16 @@
+{
+    "high_price": 1.17098,
+    "low_price": 1.15021,
+    "steps": [
+        0.0016,
+        0.0027,
+        0.0032,
+        0.0035,
+        0.0042,
+        0.005
+    ],
+    "take_profit": 0.0015,
+    "close_positions": 0,
+    "pause_orders": 1,
+    "active": 1
+}

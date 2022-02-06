@@ -1,0 +1,60 @@
+{
+    "EURUSD": {
+        "regime": "open_position",
+        "open_price_limit": 1.12256,
+        "stop_order_type": 0,
+        "cascade_orders": 1,
+        "close_positions": 1,
+        "close_orders": 0,
+        "stop_loss_price": 1.89,
+        "take_profit_price": 1.4441,
+        "open_price_stop": 1.1212,
+        "last_update": "2021-12-28|15:38:18.099314",
+        "limit_order_type": 1
+    },
+    "GBPUSD": {
+        "regime": "open_position",
+        "open_price_limit": 1.345,
+        "stop_loss_price": 1.327,
+        "take_profit_price": 1.38901,
+        "stop_order_type": 0,
+        "cascade_orders": 1,
+        "close_positions": 1,
+        "close_orders": 0,
+        "last_update": "2020-12-16|19:43:42.123864"
+    },
+    "AUDUSD": {
+        "regime": "open_position",
+        "open_price_limit": 1.1565,
+        "stop_order_type": 0,
+        "cascade_orders": 0,
+        "close_positions": 1,
+        "close_orders": 0,
+        "stop_loss_price": 1.1125,
+        "take_profit_price": 1.6546,
+        "last_update": "2021-12-16|19:48:42.123864"
+    },
+    "NZDUSD": {
+        "stop_loss": 1.1501,
+        "take_profit": 1.17019,
+        "stop_order_type": 0,
+        "cascade_orders": 1,
+        "close_positions": 1,
+        "close_orders": 0,
+        "regime": "change_position",
+        "last_update": "2021-05-16|19:43:42.123864"
+    },
+    "USDCAD": {
+        "regime": "open_position",
+        "open_price_limit": 1.25014,
+        "stop_order_type": 0,
+        "cascade_orders": 1,
+        "close_positions": 1,
+        "close_orders": 0,
+        "stop_loss_price": 1.2385,
+        "take_profit_price": 1.29639,
+        "last_update": "2021-12-01|19:43:42.123864"
+    },
+    "active": "1",
+    "last_update": "2021-12-28|15:38:18.099314"
+}

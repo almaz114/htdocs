@@ -1,0 +1,46 @@
+{"GBPUSD": 
+	{"high_level": 1.4110,
+	 "low_level": 1.33541,
+	 "stop_loss_pips": 350,
+	 "limit_order_type": 1,
+	 "stop_order_type": 0,
+	 "sell_stop_price": 1.1735,
+	 "buy_stop_price": 1.18653,
+	 "cascade_orders": 0,
+	 "close_order": 0
+	},
+"USDCAD": 
+	{"high_level": 1.26451,
+	 "low_level": 1.2110,
+	 "stop_loss_pips": 300,
+	 "limit_order_type": 0,
+	 "stop_order_type": 1,
+	 "sell_stop_price": 1.1735,
+	 "buy_stop_price": 1.18653,
+	 "cascade_orders": 1,
+	 "close_order": 0
+	},
+"AUDUSD": 
+	{"high_level": 1.09651,
+	 "low_level": 1.0710,
+	 "stop_loss_pips": 320,
+	 "limit_order_type": 0,
+	 "stop_order_type": 1,
+	 "sell_stop_price": 1.1735,
+	 "buy_stop_price": 1.18653,
+	 "cascade_orders": 1,
+	 "close_order": 0
+	},
+"NZDUSD": 
+	{"high_level": 1.17651,
+	 "low_level": 1.1110,
+	 "stop_loss_pips": 250,
+	 "limit_order_type": 0,
+	 "stop_order_type": 1,
+	 "sell_stop_price": 1.1735,
+	 "buy_stop_price": 1.18653,
+	 "cascade_orders": 1,
+	 "close_order": 0
+	},
+"last_update": "17-07-2021-19:06"	 
+}
