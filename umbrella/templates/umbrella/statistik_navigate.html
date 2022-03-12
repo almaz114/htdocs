@@ -25,7 +25,7 @@
                   <a class="nav-link active" aria-current="page" href="{% url 'main' %}" >Вернуться на</br> главную страницу </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="{% url 'statistics' %}">Статистика системы</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -40,7 +40,7 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="http://127.0.0.1:8000/nefaz/upload" >Подробно об  </br>алгоритмической системе </a>
+                  <a class="nav-link" href="{% url 'about_system' %}" >Подробно об  </br>алгоритмической системе </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" style="position: center;" href="http://127.0.0.1:8000/nefaz/database">Связаться с нами</a>

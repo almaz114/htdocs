@@ -27,9 +27,9 @@ env = environ.Env(
 # reading .env file
 environ.Env.read_env()
 string_env = os.environ
-logger.info(f"{string_env=}\n")
-logger.info(f"\n{string_env['APP_NAMES']=}")
-logger.info(f"\n{string_env['BASE_DIR']=}")
+# logger.info(f"{string_env=}\n")
+# logger.info(f"\n{string_env['APP_NAMES']=}")
+# logger.info(f"\n{string_env['BASE_DIR']=}")
 
 # ========= G E T  A P P C O N F I G ========================================================
 dict_base_config = json.loads(string_env['APP_NAMES'])
@@ -182,3 +182,9 @@ def statistics_site(request):
         'labels': labels,
         'data': data,
         'labels_2': labels_2, 'data_2': data_2})
+
+
+def about_system(request):
+    """ страница поробно о алгоритме/системе  """
+
+    return render(request, 'umbrella/about_system.html')

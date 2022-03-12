@@ -18,6 +18,7 @@
 
     <!-- мои стили для офромления -->
     <link type ="text/css" href="{% static 'umbrella/css/almaz_style.css'%}" rel="stylesheet" />
+    <link type ="text/css" href="{% static 'umbrella/css/font-awesome.min.css'%}" rel="stylesheet" />
 
     
     <!-- Fonts and Material Icons -->
@@ -127,7 +128,7 @@
     <div class="right">
       <ul class="menu">
         <li><a href="#">Преимущества</a></li>
-        <li><a href="https://ya.ru">Об алгоритмической системе</a></li>
+        <li><a href="{% url 'about_system' %}">Об алгоритмической системе</a></li>
         <li><a href="{% url 'statistics' %}">Статистика</a></li>
         <li><a href="#" id="contact_us" class="js-open-modal" >Связаться с нами</a></li>
 
@@ -157,7 +158,7 @@
       <li><a href="#">Об алгоритмической системе</a></li>
       <li><a href="#">Как начать</a></li>
       <li><a href="#">Преимущества</a></li>
-      <li><a href="#">Статистика</a></li>
+      <li><a href="{% url 'statistics' %}">Статистика</a></li>
       <li><a href="#">О Нас !</a></li>
     </ul>
     <ul class="subMenu small opacity-8">
@@ -180,7 +181,8 @@
   <div class="content">
     <div class="container">
       <div class="wrap">
-
+                <div class="logo">
+                <b>U<span>mb</span>r<span>e</span>lla</b></div> 
         <div class="fix-12-12">
           <div class="fix-3-12">
           </div>
@@ -228,6 +230,12 @@
           <br> Открыть на себя торговый счет у любого лицезированного в РФ брокера валютного рынка Forex.
           <a href = "https://brokers.ru/foreks-brokery-s-licenziej-cb">список здесь </a>
           </span></p>
+
+     <!--     <img src="{% static "umbrella//images//movie.gif" %}" alt="">   -->
+    <!--        <video width="680" height="404" poster="{% static "umbrella/images/img-1.jpg" controls>
+              <source src="{% static "umbrella//images//test.mp4" %}" type="video/mp4">
+            </video>
+        -->
         </div>  
         
       </div>
@@ -242,22 +250,23 @@
       <div class="wrap">
     <!-- МОЕ вставка -->  
 
-        <h2>Алгоритмическая система Umbrella</h2>
+    <!--    <h2>Алгоритмическая система Umbrella</h2>  -->  
 
         <div class="row">
           <div class="column">
-            <h2 style="color: green">Коротко</h2>
+            <h2 style="color: green">О нас</h2>
             <p style="color:grey"> это набор автоматизированных торговых систем предназначенных для торговли
                 на валютном рынке Forex используя различные аналитические модули написанные совместно
                 программистами и практикующими трейдерами...</p>
           </div>
           <div class="column">
-            <h2 style="color:black">Безопасно</h2>
+            <h2 style="color:black" >Безопасно</h2>
             <p>Все деньги храняться на ваших счетах..</p>
           </div>
           <div class="column">
             <h2 style="color:lightblue">Преимушества</h2>
-            <p>Вы спите, а алгоритм нет и работает пока вы спите..</p>
+            <p>1. Ваши деньги находятся на вашем счету не покидая ваш банковский счет..</p>
+            <p>2. Сотрудничество с крупнейшим в России банком ООО "Альфа-банк" и его учрежденным форекс-дилером, имеющим лицензию от Банка России. Номер в рееестре — 045-14070-020000.</p>
           </div>
         </div>
 
@@ -267,7 +276,7 @@
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url('/static/umbrella/images/img-01.jpg')"></div>
+  <div class="background" style="background-image:url('/static/umbrella/images/photo_20222.jpg')"></div>
 </section>
 <!-- Slide 4 (#11) -->
 <section class="slide fade-6 kenBurns">
@@ -278,7 +287,7 @@
       <!-- МОЕ вставка -->
 
       <div class="card">
-        <img src="/static/umbrella/images/contact_us/contacts_2.jpg" style="width:20%">
+        <!--  <img src="/static/umbrella/images/contact_us/contacts_2.jpg" style="width:20%"> -->
         <h1 style="font-size: 40px;" >Оставьте заявку на приобретение </br> или аренду продукта</h1>
 
 
@@ -311,14 +320,11 @@
 
 
           </form>
+          <a href="https://t.me/almaz114">наш telegram contact</a> </br>
+          <a href="https://www.instagram.com/umbrella.io/" title="Инстаграм" class="btn-social btn-social_in1" <img src="{% static "umbrella/images/logo_instagram.svg" %}">Инстаграм</a>
+          <p> e-mail: umbrella.chosing@gmail.com </p>      
+        <p>Менежер, ответит вам на все интересующие вас вопросы!</p>
 
-        <p class="title" href="ya.ru">Telegram & Instagram & e-mail</p>
-        <p>Наш менежер, ответит вам на все интересующие вас вопросы!</p>
-        <a href="https://ya.ru"><i class="fa fa-dribbble"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="https://ya.ru"><i class="fa fa-facebook"></i></a>
-        <p><button >Контакты</button></p>
       </div>
 
       <!-- МОЕ вставка -->  
@@ -326,7 +332,7 @@
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url('/static/umbrella/images/img-11.jpg')"></div>
+  <div class="background" style="background-image:url('/static/umbrella/images/photo_215.jpg')"></div>
 </section>
 <!-- Slide 5 (#01) -->
 <section class="slide fade-6 kenBurns">

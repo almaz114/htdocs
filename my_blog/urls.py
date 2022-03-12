@@ -8,6 +8,8 @@ from django.conf.urls.static import static
 
 
 urlpatterns = [
+    path('admin/', admin.site.urls),
+
     path('hedge/', hedge),          # edit json file hedge_martin
     path('trade_extremum/', index_5),        # edit json file trade_extremum
     path('global_levels/', global_levels),   # edit json file global_levels
