@@ -426,16 +426,22 @@ def Kovach(request):
                     dict_base[symbol] = dict_symbol
                     logger.info(f"{dict_symbol=}")
 
+                    with open(path_config + 'kovach_signals.json', 'w') as f:
+                        json.dump(dict_base, f, indent=4)  # save new dict to json file
+
                 # -- 2. режим изменения позиции stop_loss/take_profit
                 elif regime == "Изменение Stop_loss":
                     dict_symbol["regime"] = "change_position"
                 elif regime == "Безубыток по открытым позициям":
                     dict_symbol["regime"] = "breakeven_open_deals"
-                elif regime == "Закрытие позиций":
-                    dict_symbol["regime"] = "close close_positions"
+                elif regime == "Закрытие_позиций":
+                    dict_symbol["regime"] = "close_positions"
 
-                with open(path_config + 'kovach_signals.json', 'w') as f:
-                    json.dump(dict_base, f, indent=4)  # save new dict to json file
+                    dict_symbol["last_update"] = today_time.isoformat("|")
+                    dict_base[symbol] = dict_symbol
+                    with open(path_config + 'kovach_signals.json', 'w') as f:
+                        json.dump(dict_base, f, indent=4)  # save new dict to json file
+                    # logger.info(f"almaz test {path_config=}")
 
         # print(f"{symbol=}, {regime=}, {type_order=}, {open_price_limit=}, {stop_loss_price=}, {float(take_profit_price)}")
         return HttpResponse(f"<h2> Вы {user_name=} ввели данные для Kovach<br> {dict_base} </h2>")
