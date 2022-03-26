@@ -452,7 +452,7 @@ def Kovach(request):
         # return render(request, "almaz/umbrella-co.html", {"form": userform})
 
 
-def test_get_data(request):
+def get_expire_data(request):
     """ Форма вывода данных ввиде json """
     with open(path_config + 'users_expire_data.json') as f:
         dict_a = json.load(f)

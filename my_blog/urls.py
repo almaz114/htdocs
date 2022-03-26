@@ -17,7 +17,7 @@ urlpatterns = [
     path('table/', index_7),            # вывод итога из json_files to Html + Css
 
     path("kovach/", include("almaz.urls")),     # for kovach signals   # аналогично адресу http://kovach/
-    path("test/", include("almaz.urls")),        # for test get data(json) from server
+    # path("test/", include("almaz.urls")),        # for test get data(json) from server
     path("umbrella/", include("umbrella.urls"))   # for Umbrella site --> Main page
 ]
 
